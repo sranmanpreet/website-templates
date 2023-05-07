@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" c-ontent="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../output.css">
+    <title>Train Of Thought</title>
+</head>
+
+<body>
+    <hr class="border border-black my-6 lg:hidden">
+    <section id="post" class="m-auto w-full lg:container flex flex-col">
+        <div id="post-categories" class="hidden w-[96%] my-12 lg:block">
+            <ul class="flex space-x-8">
+                <li><a href="">All</a></li>
+                <li><a href="">Top 5</a></li>
+                <li><a href="">Travel</a></li>
+                <li><a href="">Art</a></li>
+            </ul>
+        </div>
+        <div id="post-container"
+            class="w-full px-4 flex flex-col font-light tracking-wider lg:border lg:border-black lg:flex-row lg:flex-wrap lg:items-start lg:p-24 ">
+            <div id="post-head-labels" class="m-4 w-full text-xs font-light flex">
+                <span class="block">Mar 23 . 1 min read</span>
+                <span class="block ml-auto">:</span>
+            </div>
+            <h1 id="post-title" class="m-4 mt-6 text-2xl font-semibold lg:text-4xl">
+                Back to Fiction: What I'm Reading This Summer
+            </h1>
+            <h2 id="post-subtitle" class="m-4 font-semibold lg:text-xl">
+                Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your
+                audience to continue reading.
+            </h2>
+            <img src="/src/assets/images/featured-post-image.webp" alt="" id="featured-image"
+                class="mt-8 h-32 object-cover lg:w-full lg:h-full">
+            <div id="content" class="m-4">
+                <p>Welcome to your blog post. Use this space to connect with your readers and potential customers in a
+                    way that’s current and interesting. Think of it as an ongoing conversation where you can share
+                    updates about business, trends, news, and more.
+                </p>
+                <p class="border-l-4 border-blue-700 p-4 my-8 italic">
+                    “Do you have a design in mind for your blog? Whether you prefer a trendy postcard look or you’re
+                    going for a more editorial style blog - there’s a stunning layout for everyone.”
+                </p>
+                <p>
+                    You’ll be posting loads of engaging content, so be sure to keep your blog organized with Categories
+                    that also allow visitors to explore more of what interests them.
+                </p>
+                <h3 class="text-2xl font-bold my-4">
+                    Create Relevant Content
+                </h3>
+                <p class="my-4">
+                    Writing a blog is a great way to position yourself as an authority in your field and captivate your
+                    readers’ attention. Do you want to improve your site’s SEO ranking? Consider topics that focus on
+                    relevant keywords and relate back to your website or business. You can also add hashtags (#vacation
+                    #dream #summer) throughout your posts to reach more people, and help visitors search for relevant
+                    content.
+                </p>
+                <p class="my-4">
+                    Blogging gives your site a voice, so let your business’ personality shine through. Choose a great
+                    image to feature in your post or add a video for extra engagement. Are you ready to get started?
+                    Simply create a new post now.
+                </p>
+                <h3 class="text-2xl font-bold my-4">
+                    Stun Your Readers
+                </h3>
+                <p class="border-l-4 border-blue-700 p-4 my-8 italic">
+                    “Be original, show off your style, and tell your story.”
+                </p>
+                <p class="my-4">
+                    Blogging gives your site a voice, so let your business’ personality shine through. Are you a
+                    creative agency? Go wild with original blog posts about recent projects, cool inspirational ideas,
+                    or what your company culture is like. Add images, and videos to really spice it up, and pepper it
+                    with slang to keep readers interested. Are you a programmer? Stay on the more technical side by
+                    offering weekly tips, tricks, and hacks that show off your knowledge of the industry. No matter what
+                    type of business you have, one thing is for sure - blogging gives your business the opportunity to
+                    be heard in a way in a different and unconventional way.
+                </p>
+                <h3 class="text-2xl font-bold my-4">
+                    Get Inspired
+                </h3>
+                <p class="my-4">
+                    To keep up with all things Wix, including website building tips and interesting articles, head over
+                    to the Wix Blog. You may even find yourself inspired to start crafting your own blog, adding unique
+                    content, and stunning images and videos. Start creating your own blog now. Good luck!
+                </p>
+            </div>
+            <hr class="hidden m-2 border-t border-gray-700 my-6 lg:block lg:w-full">
+            <div id="post-footer" class="w-full p-4 py-2 flex flex-col flex-col-reverse justify-start lg:flex-row">
+                <div id="social-bar" class="mr-auto mt-2 flex space-x-4 self-center">
+                    <img src="/src/assets/icons/icon-facebook.svg" alt="" class="w-6">
+                    <img src="/src/assets/icons/icon-twitter.svg" alt="" class="w-6">
+                    <img src="/src/assets/icons/icon-instagram.svg" alt="" class="w-6">
+                </div>
+                <span class="mr-auto inline-block text-xs self-center lg:ml-auto lg:mr-0">Travel</span>
+            </div>
+            <hr class="m-2 border-t border-gray-700 lg:block lg:hidden">
+
+        </div>
+    </section>
+
+    <section id="recent-posts" class="m-auto container">
+        <div id="links" class="my-6 flex justify-between text-sm font-light">
+            <span>Recent Posts</span>
+            <span><a href="/src/page/myblog.html">See All</a></span>
+        </div>
+
+        <div id="carousal" class="relative p-4 h-[19rem] w-full overflow-hidden space-y-4">
+            <div id="posts-carousel"
+                class="flex scrollbar-hide overflow-x-auto lg:overflow-visible lg:justify-between space-x-2 transition-transform duration-1000">
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%]">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="posts-carousel"
+                class="flex scrollbar-hide overflow-x-auto lg:overflow-visible lg:justify-between space-x-2 transition-transform duration-1000">
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%]">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="posts-carousel"
+                class="flex scrollbar-hide overflow-x-auto lg:overflow-visible lg:justify-between space-x-2 transition-transform duration-1000">
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%]">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+                <div class="carousel-item border border-black basis-[90%] shrink-0 lg:basis-[30%] ">
+                    <img src="/src/assets/images/post3.webp" alt="" class="object-cover w-fit">
+                    <h3 class="p-6 text-lg font-semibold">
+                        <a href="" class="hover:text-blue-700">Amsterdam 101: Redefining The French Fries</a>
+                    </h3>
+                </div>
+            </div>
+            <div id="carousel-dots" class="carousel-dots flex space-x-2 mx-auto justify-center lg:hidden">
+                <!-- Carousel dots -->
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-50 hover:cursor-pointer" onclick="slide(event)"></span>
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-100 hover:cursor-pointer" onclick="slide(event)"></span>
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-50 hover:cursor-pointer" onclick="slide(event)"></span>
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-50 hover:cursor-pointer" onclick="slide(event)"></span>
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-100 hover:cursor-pointer" onclick="slide(event)"></span>
+                <span class="carousel-dot h-2 w-2 rounded-full bg-blue-700 opacity-50 hover:cursor-pointer" onclick="slide(event)"></span>
+            </div>
+        </div>
+    </section>
+
+    <hr class="border border-black my-12">
+
+    <section id="contact-me" class="m-auto p-8">
+        <h2
+            class="text-xl text-black-700 text-center font-serif font-medium leading-normal lg:text-3xl lg:font-semibold">
+            Drop Me a Line, Let
+            Me
+            Know What You Think</h2>
+        <div id="subscribe-input-container" class="mt-8 m-auto flex flex-col space-y-10 font-light lg:w-1/2">
+            <div id="name" class="flex flex-col lg:flex-row lg:space-x-8">
+                <div id="subscribe-input" class="mt-2 w-full border-black border-b">
+                    <label for="" class="text-base text-gray-500">First Name</label>
+                    <input type="text" class="mt-1 w-full p-2 text-base outline-0">
+                </div>
+                <div id="subscribe-input" class="mt-2 w-full border-black border-b">
+                    <label for="" class="text-base text-gray-500">Last Name</label>
+                    <input type="text" class="mt-1 w-full p-2 text-base outline-0">
+                </div>
+            </div>
+            <div id="subscribe-input" class="mt-2 w-full border-black border-b">
+                <label for="" class="text-base text-gray-500">Email *</label>
+                <input type="text" class="mt-1 w-full p-2 text-base outline-0">
+            </div>
+            <div id="subscribe-input" class="mt-2 w-full border-black border-b">
+                <label for="" class="text-base text-gray-500">Message...</label>
+                <textarea type="text" class="mt-1 w-full p-2 text-base outline-0"></textarea>
+            </div>
+            <button
+                class="w-full mt-8 m-auto bg-blue-700 text-base text-white p-2 h-fit lg:w-fit lg:px-24">Submit</button>
+        </div>
+    </section>
+
+    <script src="/src/assets/js/data.js"></script>
+    <script src="/src/assets/js/header.js"></script>
+    <script src="/src/assets/js/myblog.js"></script>
+    <script src="/src/assets/js/carousel.js"></script>
+    <script src="/src/assets/js/search.js"></script>
+    <script src="/src/assets/js/footer.js"></script>
+</body>
+
+
+</html>
